@@ -1,12 +1,20 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
+  <v-app v-cloak>
+    <!-- ここからヘッダー -->
+    <v-app-bar
+    app
+    color="indigo"
+    style="color:white"
     >
+      <v-app-bar-nav-icon color="white" @click="drawer = true"></v-app-bar-nav-icon>
+      <v-toolbar-title>
+        MyPortfolio
+      </v-toolbar-title>
+      <v-spacer />
+    </v-app-bar>
+    <!-- ヘッダーここまで -->
+
+
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -56,6 +64,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
+
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
