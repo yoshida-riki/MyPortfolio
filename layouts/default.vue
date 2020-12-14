@@ -87,28 +87,26 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-      clipped: false,
       drawer: false,
-      fixed: false,
-      items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/',
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
-        },
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js',
+      group: null,
     }
-  },
+  }
 }
 </script>
+
+<style>
+[v-cloak] {
+  display: none;
+}
+
+.v-application a {
+  color: black;
+  text-decoration: none;
+}
+
+.theme--light.v-btn:hover::before {
+  opacity: 0.2;
+}
+</style>
