@@ -3,7 +3,9 @@
     <!-- ここからヘッダー -->
     <v-app-bar
     app
-    color="indigo"
+    fix
+    clipped-right
+    color="grey"
     style="color:white"
     >
       <v-app-bar-nav-icon color="white" @click="drawer = true"></v-app-bar-nav-icon>
@@ -17,7 +19,6 @@
     <!-- メニュー -->
     <v-navigation-drawer
       v-model="drawer"
-      fixed
       temporary
     >
       <v-list
@@ -38,6 +39,7 @@
                 </v-list-item-title>
             </v-list-item>
           </nuxt-link>
+
           <nuxt-link v-scroll-to="'#history'" to>
             <v-list-item>
               <v-list-item-icon>
@@ -48,6 +50,7 @@
                 </v-list-item-title>
             </v-list-item>
           </nuxt-link>
+
           <nuxt-link v-scroll-to="'#work'" to>
             <v-list-item>
               <v-list-item-icon>
@@ -58,6 +61,7 @@
                 </v-list-item-title>
             </v-list-item>
           </nuxt-link>
+
           <nuxt-link v-scroll-to="'#contact'" to>
             <v-list-item>
               <v-list-item-icon>
@@ -68,6 +72,7 @@
                 </v-list-item-title>
             </v-list-item>
           </nuxt-link>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

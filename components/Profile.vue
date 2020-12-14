@@ -32,8 +32,8 @@
         height="auto"
         >
         <img
-        src="/image/my-portfolio-profile.jpg"
-        alt="SHOOT"
+        src=""
+        alt=""
         style="object-fit:cover;"
         >
         </v-avatar>
@@ -64,7 +64,13 @@
 
 <script>
 export default {
-
+  data: () => ({
+    profiles: [
+      {content: '吉田 理輝 (よしだ りき)'},
+      {content: '1995年5月21日生まれ (現在25歳)'},
+      {content: '鹿児島県出身鹿児島市在住'},
+    ]
+  })
 }
 </script>
 
