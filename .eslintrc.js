@@ -17,8 +17,7 @@ module.exports = {
   plugins: ['prettier'],
   // add your custom rules here
   rules: {
-    "semi": "error","always",
-    "semi-style": "error", "last",
-    "no-extra-semi": "error"
-  },
+  }
+  
+  ],
 }
