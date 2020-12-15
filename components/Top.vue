@@ -10,11 +10,18 @@
       class="white--text align-end text-center font-italic"
       :class="{'headline': $vuetify.breakpoint.smAndDown, 'display-1': $vuetify.breakpoint.mdAndUp}"
       src="/image/header.jpeg"
-      height="30vw"
+      height="40vw"
       >
       <v-card
-      width="48%"
-      flat
+      light
+
+      width="50%"
+      style="float: right;margin-bottom: 5%;"
+      elevation="14"
+      loading="grey"
+      loader-height="4"
+      justify="center"
+      align-content="center"
       >
         <p>希望職種：フロントエンドエンジニア</p>
         <p>学習中言語：Vue.js,Nuxt.js</p>
