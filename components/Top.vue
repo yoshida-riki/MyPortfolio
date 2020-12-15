@@ -5,7 +5,6 @@
     >
       <v-card
       width="100vw"
-      height="100%"
       >
       <v-img
       class="white--text align-end text-center font-italic"
@@ -15,6 +14,7 @@
       >
       <v-card
       width="48%"
+      flat
       >
         <p>希望職種：フロントエンドエンジニア</p>
         <p>学習中言語：Vue.js,Nuxt.js</p>
@@ -26,3 +26,6 @@
     </v-container>
   </div>
 </template>
+
+<style scoped>
+</style>

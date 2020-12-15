@@ -1,4 +1,6 @@
 import { mount } from '@vue/test-utils'
+
+// ここから自分が作ったコンポーネントに合わせて作り替える
 import Logo from '@/components/Logo.vue'
 
 describe('Logo', () => {

@@ -3,12 +3,10 @@
     <!-- ここからヘッダー -->
     <v-app-bar
     app
-    fix
-    clipped-right
     color="grey"
     style="color:white"
     >
-      <v-app-bar-nav-icon color="white" @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon color="white" @click="drawer=true"></v-app-bar-nav-icon>
       <v-toolbar-title>
         MyPortfolio
       </v-toolbar-title>
@@ -19,6 +17,7 @@
     <!-- メニュー -->
     <v-navigation-drawer
       v-model="drawer"
+      fixed
       temporary
     >
       <v-list
@@ -104,10 +103,12 @@ export default {
 <style>
 [v-cloak] {
   display: none;
+  margin: 0;
+  padding: 0;
 }
 
 .v-application a {
-  color: black;
+  color: rgb(134, 134, 134);
   text-decoration: none;
 }
 
