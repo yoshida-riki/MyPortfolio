@@ -9,7 +9,7 @@
       <v-card-title
       class="pa-5 justify-center display-1 font-italic"
       >
-        MyPortfolio
+        About
       </v-card-title>
 
       <v-row
@@ -32,8 +32,8 @@
         height="auto"
         >
         <img
-        src=""
-        alt=""
+        src="/image/myphoto.jpeg"
+        alt="私の写真"
         style="object-fit:cover;"
         >
         </v-avatar>
