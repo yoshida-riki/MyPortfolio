@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gitmoji-cli": "^3.2.18",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.14.6",
     "vue-scrollto": "^2.20.0"

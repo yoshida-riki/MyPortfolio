@@ -80,7 +80,7 @@
     <v-content
     fluid
     >
-      <nuxt />
+      <Nuxt />
     </v-content>
 
     <v-footer :absolute="!fixed" app>

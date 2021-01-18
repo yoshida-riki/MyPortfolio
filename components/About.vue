@@ -9,7 +9,7 @@
       <v-card-title
       class="pa-5 justify-center display-1 font-italic"
       >
-        About
+        自己紹介
       </v-card-title>
 
       <v-row
